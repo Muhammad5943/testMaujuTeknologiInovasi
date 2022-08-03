@@ -4,7 +4,7 @@ const Transaction = models.Transaction
 const Joi = require('joi')
 const filterKeys= require('../utils/filterKeys')
 const logger = require('../utils/logger')
-const idDate = require('../Helpers/id_date')
+const idDate = require('../helpers/id_date')
 
 exports.get = async (req, res) => {
     try{        

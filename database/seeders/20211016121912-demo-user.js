@@ -7,8 +7,8 @@ module.exports = {
     const currentTime = new Date()
     
     return queryInterface.bulkInsert('Users', [{
-      name: 'John Doe',
-      email: 'johndoe@gmail.com',
+      name: 'Yohana Ferdinan',
+      email: 'yohan@gmail.com',
       password: await bcrypt.hash('12345678', 10),
       created_at: currentTime,
       updated_at: currentTime      

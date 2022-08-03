@@ -4,7 +4,7 @@
   "description": "Test PT MaujuTeknologiInovasi",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index",
     "dev": "nodemon index"
   },
   "author": "Muhammad Aji Putra",
