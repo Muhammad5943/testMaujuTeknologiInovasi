@@ -7,14 +7,11 @@ require('dotenv').config({
 module.exports = {
     development: {
         port: process.env.PORT || '8080',
-        clientUrl: process.env.CLIENT_URL || 'http://localhost:3000'
     },
     test: {
         port: process.env.PORT,
-        clientUrl: process.env.CLIENT_URL
     },
     production: {
         port: process.env.PORT,
-        clientUrl: process.env.CLIENT_URL
     }
 }
